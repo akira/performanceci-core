@@ -7,4 +7,5 @@ EXPOSE 4567
 ENV RAILS_ENV production
 RUN bundle exec rake db:migrate
 #RUN bundle exec rake db:seed_perf
-CMD ["bundle", "exec", "rails", "s", "-p", "4567"]
+CMD ["exec", "rails", "s", "-p", "4567"]
+ENTRYPOINT ["bundle"]
