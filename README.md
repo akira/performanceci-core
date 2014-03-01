@@ -1,6 +1,5 @@
 # PerformanceCI
 
-
 This is a project to add application performance testing into your continuous
 delivery pipeline. We built this over a hackathon weekend and decided to release
 it to the public as open source.
